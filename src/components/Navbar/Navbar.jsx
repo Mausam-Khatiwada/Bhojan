@@ -26,12 +26,12 @@ const Navbar = ({ setShowLogin, hideMenuLink = false }) => {
   };
   return (
     <div className="navbar" style={{ backgroundColor: navbarColor }}>
-      <Link to="/bhojan">
+      <Link to="/bhojan/">
         <img className="logo" src="./bhojan-logo.png" alt="" />
       </Link>
       
       <ul className="navbar-menu">
-        <Link to="/bhojan">
+        <Link to="/bhojan/">
           <a
             href="#home"
             onClick={() => {
@@ -70,7 +70,7 @@ const Navbar = ({ setShowLogin, hideMenuLink = false }) => {
       <div className={isActive ? "hamburger-false" : "hamburger-content"}>
         <ul className="hamburger-navbar-menu">
           <Link
-            to="/bhojan"
+            to="/bhojan/"
             onClick={() => {
               setMenu("Home");
             }}
