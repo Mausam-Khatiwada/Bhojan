@@ -31,7 +31,7 @@ const Navbar = ({ setShowLogin, hideMenuLink = false }) => {
       </Link>
       
       <ul className="navbar-menu">
-        <Link to="/">
+        <Link to="/bhojan">
           <a
             href="#home"
             onClick={() => {
