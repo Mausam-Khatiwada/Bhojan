@@ -21,7 +21,7 @@ const App = () => {
       {!isCartPage && <Navbar setShowLogin={setShowLogin} />}
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home setShowLogin={setShowLogin} />} />
+          <Route path="/bhojan" element={<Home setShowLogin={setShowLogin} />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
         </Routes>
