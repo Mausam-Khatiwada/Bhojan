@@ -1,0 +1,117 @@
+
+.cart{
+        width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+
+}
+
+.cart-items-title{
+    
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: max(1vw,12px);
+}
+.cart-items-item{
+    font-size: 14px;
+    margin: 10px 0px;
+    text-align: center;
+    color: white;
+}
+.cart-items-item img{
+    width: 50px;
+    align-items: center;
+    margin: auto;
+    border: none;
+
+}
+.cart hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+
+}
+.cart-items-item .cross{
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw,20px);
+    
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-total hr{
+    margin: 10px 0px;
+    color: #fff;
+}
+.cart-total button{
+    border: none;
+    background: #f26627;
+    width: max(15vw,200px);
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+.cart-total button:hover{
+    background: #f75003;
+
+}
+.cart-promocode{
+    flex: 1;
+}
+.cart-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.cart-promocode-input input{
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+}
+.cart-promocode-input button{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    width: 120px;
+    background-color: #f26627;
+    color: white;
+}
+
+@media (max-width:750px) {
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content: start;
+    }.cart-items-item{
+        font-size: 10px;
+    }
+}
