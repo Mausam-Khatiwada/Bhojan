@@ -110,7 +110,7 @@ const Navbar = ({ setShowLogin, hideMenuLink = false }) => {
       <div className="navbar-right">
         <img className="searchIcon" src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
-          <Link to="/cart">
+          <Link to="/cart/">
             {" "} 
             <img className="basketIcon" src={assets.basket_icon} alt="" />
           </Link>
